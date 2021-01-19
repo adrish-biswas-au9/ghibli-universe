@@ -1,0 +1,208 @@
+*{
+    scroll-behavior: smooth;
+}
+.movie_poster{
+    display:inline-block;
+    width: 190px;
+    height: 280px;
+    border: 5px solid #1a1503;
+    border-radius: 10px;
+
+}
+.movie_poster:hover{
+    box-shadow: 0 0 25px  #716944;
+    transform: scale(1.3);
+    /* border: 3px solid #1daeed; */
+    transform: translate(0, -5px);
+  }
+  
+.movie_poster_container{
+    display:inline-block;
+    margin: 35px;
+    margin-bottom: 50px;
+   /* margin-top: 0px; */
+    width: 200px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    /* border-left: 3px solid rgb(9, 177, 233);
+    background-color: lightblue; */
+    color:#1a1503;
+    font-weight: bold;
+    height: 280px;
+}
+.no_result_container{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    height: 480px;
+    color:#1a1503;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 35px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.overlay {
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* height: 100%; */
+    height: 5px;
+    /* top: 20px; */
+    /* width: 100%; */
+    margin:0px;
+    padding: 0px;
+    /* opacity: 0; */
+    transition: .5s ease;
+    /* background-color: #008CBA; */
+  }
+  
+  
+/* .movie_poster_container:hover .overlay {
+    opacity: 1;
+} */
+.text{
+    color: #504721;
+    font-size: 20px;
+    /* position: absolute; */
+    margin:0px;
+    /* top: 10px; */
+    /* margin-top: 20px; */
+    padding: 0px;
+    /* padding-top: 30px; */
+    /* top: 50%;
+    left: 50%; */
+    /* -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none; */
+    filter: sepia();
+  }  
+.movie_grid{
+    display:flex;
+    flex-wrap: wrap;
+}
+.slider{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    /* background-attachment: fixed; */
+}
+.slider > h4{
+    margin-right: 948px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#1a1503;
+    display:inline-block;
+    color: #cccdb4;
+}
+.slider > h3{
+    margin-right: 100%;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#1a1503;
+    display:inline-block;
+    color: #cccdb4;
+}
+
+#HomeLogo{
+    display: inline-block;
+    margin: 0px;
+    margin-left: 19.65%;
+    padding: 30px;
+    background-color:#fefefe;
+}
+
+.PresentedBy1{
+   
+    display: inline-block;
+    
+    margin:0px;
+    margin-left: 30px;
+    margin-top: 0%;
+    /* margin-right: 100%; */
+}
+
+.PresentedBy2{
+    display: inline-block;
+    margin: 0px;
+    
+    margin-left: 30px;
+    margin-right: 5%;
+    background-color: rgb(9, 177, 233);
+}
+
+#HomeImage1{
+    height: 80px;
+    width: 80px;
+    filter: sepia();
+}
+
+#HomeImage2{
+    height: 90px;
+    width: 180px;
+    /* filter:invert(); */
+    
+}
+
+#Brought_to_you_by{
+    margin-right: 800px;
+    margin-top: 27%;
+    display:inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#1a1503;
+    color: #cccdb4;
+}
+.HomeDescription{
+    font-family: 'Lora', serif;
+    background-color: #504721;
+    padding: 60px;
+    font-weight: 400;
+    color: #ede6cb;
+}
+.HomeDescription p {
+    font-size: 20px;
+}
+
+.HomeDescription h2 {
+    font-size: 30px;
+}
+
+#HomeLogo p{
+    font-size: 9px;
+    color:#504721;
+    font-family: 'Lora', serif;
+}
+
+.CategoryHeading{
+    color:#504721;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+/* #search-button{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#504721;
+    color: #cccdb4;
+    margin-bottom:30px; 
+} */
+
+.slider_container{
+    background-color:#716944;
+    
+}
